@@ -42,7 +42,7 @@
 
 .list li {
   padding: 1em;
-  border: 2px solid purple;
+  border: 2px solid rgb(20, 165, 20);
   margin: 1.33em;
   align-self: center;
 }
