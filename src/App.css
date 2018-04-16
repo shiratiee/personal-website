@@ -1,0 +1,100 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.skills {
+  padding-top: 50px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list li {
+  padding: 1em;
+  border: 2px solid purple;
+  margin: 1.33em;
+  align-self: center;
+}
+
+.portfolio {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.portfolio li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 445px;
+  height: 445px;
+}
+
+.portfolio-image {
+  width: 300px;
+  height: 200px;
+}
+
+.description {
+  margin: -4em 2em -3em 2em;
+}
+
+button {
+  width: 4em;
+  height: 2em;
+  font-size: 1em;
+  margin: -2.5em 0.5em 0 0.5em;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
