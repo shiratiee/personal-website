@@ -76,15 +76,24 @@
 }
 
 .portfolio-image {
+  display: flex;
+  flex-direction: row;
   width: 300px;
   height: 200px;
+  margin: 10px;
   border: 2px solid rgb(20, 165, 20);
 }
 
 .description {
+  display: flex;
+  flex-direction: row;
   margin: -4em 2em -3em 2em;
     /* font-family: 'Abril Fatface', cursive; */
-  font-family: 'Questrial', sans-serif;
+  /* font-family: 'Questrial', sans-serif; */
+  /* font-family: 'Arimo', sans-serif; */
+  font-family: 'Muli', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+
   /* font-family: 'Sanchez', serif; */
   /* font-family: 'Prata', serif; */
   /* font-family: 'Ovo', serif; */
@@ -107,7 +116,7 @@ button {
 }
 
 button a {
-  text-decoration: none;
+  font-family: 'Prata', serif;
 }
 
 .nav {
@@ -115,18 +124,21 @@ button a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Martel', serif;
+  /* font-family: 'Martel', serif; */
   /* font-family: 'Abril Fatface', cursive; */
   /* font-family: 'Questrial', sans-serif; */
   /* font-family: 'Sanchez', serif; */
-  /* font-family: 'Prata', serif; */
+  font-family: 'Prata', serif;
   /* font-family: 'Ovo', serif; */
   /* font-family: 'Alef', sans-serif; */
   /* font-family: 'Antic', sans-serif;  */
 }
+.my-name:hover {
+  opacity: 0.5;
+}
 
 .my-name {
-  font-family: 'Martel', serif;
+  font-family: 'Prata', serif;
 }
 
 .my-image {
@@ -135,9 +147,9 @@ button a {
 }
 
 .my-blurb {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 .contact {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Muli', sans-serif;
 }

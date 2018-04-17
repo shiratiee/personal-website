@@ -7,21 +7,21 @@ export default function Navbar () {
       <div>
       <div className ="my-name">
       <Link to="/">
-        <h2>Shiratie Prodhan</h2>
+        <h1>Shiratie Prodhan</h1>
       </Link>
     </div>
         <div className="nav">
           <Link to="/about">
-            <h4>About</h4>
+            <h3>About</h3>
           </Link>
           <Link to="/skills">
-            <h4>Skills</h4>
+            <h3>Skills</h3>
           </Link>
           <Link to="/projects">
-            <h4>Projects</h4>
+            <h3>Projects</h3>
           </Link>
           <Link to="/contact">
-          <h4>Contact</h4>
+          <h3>Contact</h3>
         </Link>
         </div>
 
