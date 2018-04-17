@@ -155,8 +155,10 @@ button a {
 }
 
 .my-image {
-  border: 2px solid rgb(20, 165, 20);
+  border: 2px solid rgb(16, 134, 16);
   border-radius: 50%;
+  height: 300px;
+  width: 300px;
 }
 
 .my-blurb {
