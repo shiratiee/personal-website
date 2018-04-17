@@ -148,6 +148,9 @@ button a {
   opacity: 0.5;
 }
 
+.nav-links:hover {
+  opacity: 0.5;
+}
 
 .my-name {
   font-family: 'Prata', serif;
