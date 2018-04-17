@@ -37,6 +37,10 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 .skills {
   padding-top: 50px;
   font-family: 'Prata', serif;
@@ -144,13 +148,11 @@ button a {
   /* font-family: 'Alef', sans-serif; */
   /* font-family: 'Antic', sans-serif;  */
 }
+
 .my-name:hover {
   opacity: 0.5;
 }
 
-.nav-links:hover {
-  opacity: 0.5;
-}
 
 .my-name {
   font-family: 'Prata', serif;
