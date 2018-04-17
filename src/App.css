@@ -137,8 +137,10 @@ button a {
   opacity: 0.5;
 }
 
+
 .my-name {
   font-family: 'Prata', serif;
+  text-decoration: 'none';
 }
 
 .my-image {
@@ -153,3 +155,4 @@ button a {
 .contact {
   font-family: 'Muli', sans-serif;
 }
+
