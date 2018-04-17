@@ -3,7 +3,7 @@ import React from 'react';
 export default function Skills() {
   return (
     <div className="skills">
-      <h1>Proficient</h1>
+      <h2>Proficient</h2>
       <ul className="list">
         <li>JavaScript(ES5/ES6)</li>
         <li>React</li>
@@ -15,7 +15,7 @@ export default function Skills() {
         <li>HTML5</li>
         <li>Agile Workflow</li>
       </ul>
-      <h1>Knowledgeable</h1>
+      <h2>Knowledgeable</h2>
       <ul className="list">
         <li>CSS3</li>
         <li>PostgreSQL</li>

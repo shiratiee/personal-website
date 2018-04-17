@@ -28,6 +28,15 @@
   to { transform: rotate(360deg); }
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
 .skills {
   padding-top: 50px;
   font-family: 'Prata', serif;
@@ -40,6 +49,7 @@
   flex-wrap: wrap;
   justify-content: center;
 
+
 }
 
 .list li {
@@ -47,6 +57,7 @@
   border: 2px solid rgb(20, 165, 20);
   margin: 1.33em;
   align-self: center;
+
 }
 
 .portfolio {
