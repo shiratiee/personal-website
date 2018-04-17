@@ -5,7 +5,7 @@ export default function Navbar () {
 
     return (
       <div>
-      <div>
+      <div className ="my-name">
       <Link to="/">
         <h2>Shiratie Prodhan</h2>
       </Link>

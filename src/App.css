@@ -30,6 +30,7 @@
 
 .skills {
   padding-top: 50px;
+  font-family: 'Prata', serif;
 }
 
 .list {
@@ -38,6 +39,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .list li {
@@ -51,10 +53,17 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   justify-content: center;
-  padding-top: 20px;
-  margin-top: 20px;
+  padding-top: 25px;
+  margin-top: 25px;
+    /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Questrial', sans-serif; */
+  /* font-family: 'Sanchez', serif; */
+  font-family: 'Prata', serif;
+  /* font-family: 'Ovo', serif; */
+  /* font-family: 'Alef', sans-serif; */
+  /* font-family: 'Antic', sans-serif;  */
 }
 
 .portfolio li {
@@ -62,8 +71,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 445px;
-  height: 445px;
+  width: 450px;
+  height: 450px;
 }
 
 .portfolio-image {
@@ -74,6 +83,13 @@
 
 .description {
   margin: -4em 2em -3em 2em;
+    /* font-family: 'Abril Fatface', cursive; */
+  font-family: 'Questrial', sans-serif;
+  /* font-family: 'Sanchez', serif; */
+  /* font-family: 'Prata', serif; */
+  /* font-family: 'Ovo', serif; */
+  /* font-family: 'Alef', sans-serif; */
+  /* font-family: 'Antic', sans-serif;  */
 }
 
 button {
@@ -99,6 +115,18 @@ button a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Martel', serif;
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Questrial', sans-serif; */
+  /* font-family: 'Sanchez', serif; */
+  /* font-family: 'Prata', serif; */
+  /* font-family: 'Ovo', serif; */
+  /* font-family: 'Alef', sans-serif; */
+  /* font-family: 'Antic', sans-serif;  */
+}
+
+.my-name {
+  font-family: 'Martel', serif;
 }
 
 .my-image {
@@ -106,3 +134,10 @@ button a {
   border-radius: 50%;
 }
 
+.my-blurb {
+  font-family: 'Questrial', sans-serif;
+}
+
+.contact {
+  font-family: 'Questrial', sans-serif;
+}

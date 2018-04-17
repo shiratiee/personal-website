@@ -7,7 +7,7 @@ export default function Contact() {
   return (
 
     <div>
-      <h4>
+      <h4 className="contact">
       Want to get in touch? Email me at shiratiee@gmail.com
       </h4>
       <img src={github}/>
