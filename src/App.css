@@ -72,13 +72,7 @@ a:hover {
   justify-content: center;
   padding-top: 25px;
   margin-top: 25px;
-    /* font-family: 'Abril Fatface', cursive; */
-  /* font-family: 'Questrial', sans-serif; */
-  /* font-family: 'Sanchez', serif; */
   font-family: 'Prata', serif;
-  /* font-family: 'Ovo', serif; */
-  /* font-family: 'Alef', sans-serif; */
-  /* font-family: 'Antic', sans-serif;  */
 }
 
 .portfolio li {
@@ -103,17 +97,6 @@ a:hover {
   display: flex;
   flex-direction: row;
   margin: -4em 2em -3em 2em;
-    /* font-family: 'Abril Fatface', cursive; */
-  /* font-family: 'Questrial', sans-serif; */
-  /* font-family: 'Arimo', sans-serif; */
-  font-family: 'Muli', sans-serif;
-  /* font-family: 'Nunito', sans-serif; */
-
-  /* font-family: 'Sanchez', serif; */
-  /* font-family: 'Prata', serif; */
-  /* font-family: 'Ovo', serif; */
-  /* font-family: 'Alef', sans-serif; */
-  /* font-family: 'Antic', sans-serif;  */
 }
 
 button {
@@ -140,14 +123,7 @@ button a {
   justify-content: space-around;
   align-items: center;
   border: 1px solid rgb(202, 192, 186); 
-  /* font-family: 'Martel', serif; */
-  /* font-family: 'Abril Fatface', cursive; */
-  /* font-family: 'Questrial', sans-serif; */
-  /* font-family: 'Sanchez', serif; */
   font-family: 'Prata', serif;
-  /* font-family: 'Ovo', serif; */
-  /* font-family: 'Alef', sans-serif; */
-  /* font-family: 'Antic', sans-serif;  */
 }
 
 .my-name:hover {
