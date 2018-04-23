@@ -63,7 +63,7 @@ a:hover {
 
 .list li {
   padding: 1em;
-  border: 2px solid rgb(20, 165, 20);
+  border: 2px solid rgb(18, 5, 134);
   margin: 1.33em;
   align-self: center;
 
@@ -95,7 +95,7 @@ a:hover {
   width: 300px;
   height: 200px;
   margin: 10px;
-  border: 2px solid rgb(20, 165, 20);
+  border: 2px solid rgb(18, 5, 134);
 }
 
 .description {
@@ -110,8 +110,8 @@ button {
   height: 2em;
   font-size: 1em;
   margin: -2.5em 0.5em 0 0.5em;
-  background-color: rgb(247, 240, 205); 
-  border: 2px solid rgb(20, 165, 20);
+  background-color: rgb(205, 239, 247); 
+  border: 2px solid rgb(18, 5, 134);
   text-decoration: none;
 }
 
@@ -130,7 +130,7 @@ button a {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid rgb(202, 192, 186); 
+  border: 1px solid rgb(37, 35, 168); 
   font-family: 'Prata', serif;
 }
 
@@ -150,7 +150,7 @@ button a {
 
 .my-image {
   margin-top: 30px;
-  border: 2px solid rgb(16, 134, 16);
+  border: 2px solid rgb(18, 5, 134);
   border-radius: 50%;
   height: 300px;
   width: 300px;
