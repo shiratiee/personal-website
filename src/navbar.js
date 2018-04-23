@@ -11,16 +11,16 @@ export default function Navbar () {
       </Link>
     </div>
         <div className="nav">
-          <Link to="/about" style={{ textDecoration: 'none' }}>
+          <Link to="/about">
             <h3>About</h3>
           </Link>
-          <Link to="/skills" style={{ textDecoration: 'none' }}>
+          <Link to="/skills">
             <h3>Skills</h3>
           </Link>
-          <Link to="/projects" style={{ textDecoration: 'none' }}>
+          <Link to="/projects">
             <h3>Projects</h3>
           </Link>
-          <Link to="/contact" style={{ textDecoration: 'none' }}>
+          <Link to="/contact">
           <h3>Contact</h3>
         </Link>
         </div>
