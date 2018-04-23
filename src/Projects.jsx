@@ -2,11 +2,12 @@ import React from 'react';
 import ecommerce from './images/ecommerce.png';
 import seaadventure from './images/seaadventure.png';
 import whiskr from './images/whiskr.png';
+import gol from './images/gol.png';
 
 export default function Portfolio() {
   return (
-    <div>
-    <h1 className= "skills"> Portfolio </h1>
+    <div className= "title">
+    <h1> Portfolio</h1>
       <ul className="portfolio">
         <li>
           <h3>Whiskr</h3>
@@ -90,6 +91,28 @@ export default function Portfolio() {
             </button>
           </div>
         </li>
+        <li>
+        <h3>Game of Life</h3>
+        <p className="description">
+          Conway's game of life allows a user to create an initial state and watch the creation of patterns based on that state. Built using JavaScript and CSS3.
+        </p>
+        <img className="portfolio-image" src={gol} alt="gol" />
+        <div className="buttons">
+          <button>
+            <a href="https://shiratiee.github.io/gameoflife/" target="_blank">
+              Demo
+            </a>
+          </button>
+          <button>
+            <a
+              href="https://github.com/shiratiee/gameoflife"
+              target="_blank"
+            >
+              Code
+            </a>
+          </button>
+        </div>
+      </li>
     
       </ul>
     </div>

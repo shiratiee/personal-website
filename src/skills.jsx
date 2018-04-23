@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Skills() {
   return (
-    <div className="skills">
+    <div className="title">
       <h1> Skills </h1>
       <h3>Front End</h3>
       <ul className="list">

@@ -4,8 +4,8 @@ import Me from './images/Me.png'
 
 export default function About() {
   return (
-    <div>
-    <h1 className= "skills"> About Me </h1>
+    <div className= "title">
+    <h1> About Me </h1>
     <img 
      className="my-image"
      src={Me}
