@@ -38,6 +38,7 @@ a:visited {
 
 a:hover {
   opacity: 0.5;
+  text-decoration: underline;
 }
 
 .skills {
@@ -131,6 +132,10 @@ button a {
   align-items: center;
   border: 1px solid rgb(202, 192, 186); 
   font-family: 'Prata', serif;
+}
+
+.nav:hover {
+  text-decoration:underline;
 }
 
 .my-name:hover {
