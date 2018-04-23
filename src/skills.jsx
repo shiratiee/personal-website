@@ -3,23 +3,23 @@ import React from 'react';
 export default function Skills() {
   return (
     <div className="skills">
-      <h2>Proficient</h2>
+      <h1> Skills </h1>
+      <h3>Front End</h3>
       <ul className="list">
         <li>JavaScript(ES5/ES6)</li>
         <li>React</li>
         <li>Redux</li>
-        <li>Express.js</li>
-        <li>Node.js</li>
-        <li>Sequelize</li>
-        <li>Git</li>
         <li>HTML5</li>
-        <li>Agile Workflow</li>
-      </ul>
-      <h2>Knowledgeable</h2>
-      <ul className="list">
         <li>CSS3</li>
+      </ul>
+      <h3>Back End</h3>
+      <ul className="list">
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Sequelize</li>
         <li>PostgreSQL</li>
         <li>SQL</li>
+        <li>RESTful APIs</li>
         <li>Mocha</li>
         <li>Chai</li>
         <li>OAuth</li>

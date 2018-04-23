@@ -6,6 +6,7 @@ import whiskr from './images/whiskr.png';
 export default function Portfolio() {
   return (
     <div>
+    <h1 className= "skills"> Portfolio </h1>
       <ul className="portfolio">
         <li>
           <h3>Whiskr</h3>
