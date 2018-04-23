@@ -3,8 +3,8 @@ import React from 'react';
 export default function Skills() {
   return (
     <div className="title">
-      <h1> Skills </h1>
-      <h3>Front End</h3>
+      <h1 style={{ textDecoration: 'underline' }}> Skills </h1>
+      <h3 style={{ textDecoration: 'underline' }}>Front End</h3>
       <ul className="list">
         <li>JavaScript(ES5/ES6)</li>
         <li>React</li>
@@ -12,7 +12,7 @@ export default function Skills() {
         <li>HTML5</li>
         <li>CSS3</li>
       </ul>
-      <h3>Back End</h3>
+      <h3 style={{ textDecoration: 'underline' }}>Back End</h3>
       <ul className="list">
         <li>Node.js</li>
         <li>Express.js</li>

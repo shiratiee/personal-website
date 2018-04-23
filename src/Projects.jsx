@@ -7,10 +7,10 @@ import gol from './images/gol.png';
 export default function Portfolio() {
   return (
     <div className= "title">
-    <h1> Portfolio</h1>
+    <h1 style={{ textDecoration: 'underline' }}> Portfolio </h1>
       <ul className="portfolio">
         <li>
-          <h3>Whiskr</h3>
+          <h3 style={{ textDecoration: 'underline' }}>Whiskr</h3>
           <p className="description">
             A tinder-like progressive web app. You can swipe left/right on pets you might
             want to adopt. Built with React/Redux/Express/Sequelize/PetFinder API
@@ -37,7 +37,7 @@ export default function Portfolio() {
           </div>
         </li>
         <li>
-          <h3>Sea Adventure</h3>
+          <h3 style={{ textDecoration: 'underline' }}>Sea Adventure</h3>
           <p className="description">
             A platform game inspired by Mario Kart. You are a pokeball in the sea and your
             goal is to catch all the pokemon in a specific time frame.
@@ -69,7 +69,7 @@ export default function Portfolio() {
           </div>
         </li>
         <li>
-          <h3>Dragon Adoption</h3>
+          <h3 style={{ textDecoration: 'underline' }}>Dragon Adoption</h3>
           <p className="description">
             An e-commerce site that allows clients to buy/adopt mystical dragons. Dragons can be filtered by color.
             Built using React/Redux, Sequelize, Express, Node.js, CSS3
@@ -92,7 +92,7 @@ export default function Portfolio() {
           </div>
         </li>
         <li>
-        <h3>Game of Life</h3>
+        <h3 style={{ textDecoration: 'underline' }}>Game of Life</h3>
         <p className="description">
           Conway's game of life allows a user to create an initial state and watch the creation of patterns based on that state. Built using JavaScript and CSS3.
         </p>
