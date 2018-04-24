@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { Router, Switch } from 'react-router';
-import { Route } from 'react-router-dom';
+import { Router } from 'react-router';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import history from './history';
 import About from './About'
