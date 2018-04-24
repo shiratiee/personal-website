@@ -15,6 +15,7 @@ export default function About() {
         I'm a developer based in New York City working mainly with JavaScript. 
         I have expertise throughout the tech stack but I am most excited about the front-end. 
         Currently, I'm leveling up my CSS/Sass skills and am interested in learning new technologies like Mobile Development, Python and C#.
+        <br/>
         When I'm not coding, I love being in the outdoors and using makeup as an art form!
       </h2>
     </div>
