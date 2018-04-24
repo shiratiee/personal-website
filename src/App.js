@@ -17,11 +17,11 @@ class App extends Component {
       <Router history={history}>
       <div className="App">
       <Navbar/>
-        <Route path="/" component={About} />
-        <Route path="/About" component={About} />
+        <Route exact path="/About" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
+        <Route path="/" component={About} />
       </div>
       </Router>
     );
