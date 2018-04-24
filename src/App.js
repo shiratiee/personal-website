@@ -17,8 +17,8 @@ class App extends Component {
       <Router history={history}>
       <div className="App">
       <Navbar/>
-        <Route exact path="/" component={About} />
-        <Route exact path="/About" component={About} />
+        <Route path="/" component={About} />
+        <Route path="/About" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
