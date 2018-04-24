@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { Router } from 'react-router';
+import { Router, Switch } from 'react-router';
 import { Route } from 'react-router-dom';
 import './App.css';
 import history from './history';
@@ -17,11 +17,13 @@ class App extends Component {
       <Router history={history}>
       <div className="App">
       <Navbar/>
+        <Switch>
         <Route exact path="/about" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
         <Route path="/" component={About} />
+        </Switch>
       </div>
       </Router>
     );
