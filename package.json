@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shiratiee.github.io",
+  "homepage": "https://shiratiee.github.io/personal-website/",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.1.0",
