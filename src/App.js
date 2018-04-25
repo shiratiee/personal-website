@@ -1,27 +1,27 @@
 
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router } from 'react-router';
+import { Route } from 'react-router-dom';
 import './App.css';
 import About from './About'
 import Navbar from './navbar'
 import Skills from './skills'
 import Projects from './Projects'
 import Contact from './contact'
+import history from './history'
 
 class App extends Component {
   render() {
     return (
-    <Router>
+    <Router history = {history}>
       <div className="App">
        <Navbar/>
-        <Switch>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
-        </Switch>
       </div>
     </Router>
     );
