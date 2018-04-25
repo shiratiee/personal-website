@@ -63,8 +63,9 @@ a:hover {
 
 .list li {
   padding: 1em;
-  border: 2px dashed rgb(82, 5, 134);
-  margin: 1.33em;
+  border: 2px solid rgb(82, 5, 134);
+  box-shadow: 5px 10px rgb(119, 101, 168);
+  margin: 1em;
   align-self: center;
 }
 
@@ -86,6 +87,8 @@ a:hover {
   align-items: center;
   width: 450px;
   height: 450px;
+  border: 1px solid rgb(181, 179, 182);
+  justify-content: space-between
 }
 
 .portfolio-image {
