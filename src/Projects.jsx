@@ -22,7 +22,10 @@ export default function Portfolio() {
           />
           <div className="buttons">
             <button>
-              <a href="https://whiskrapp.herokuapp.com/" target="_blank">
+              <a href="https://whiskrapp.herokuapp.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
                 Demo
               </a>
             </button>
@@ -30,6 +33,7 @@ export default function Portfolio() {
               <a
                 href="https://github.com/Whiskr/whiskr"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Code
               </a>
@@ -54,6 +58,7 @@ export default function Portfolio() {
               <a
                 href="https://www.youtube.com/watch?v=x9gQXCwP9Ks"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Demo
               </a>
@@ -62,6 +67,7 @@ export default function Portfolio() {
               <a
                 href="https://github.com/shiratiee/Stackathon"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Code
               </a>
@@ -77,7 +83,10 @@ export default function Portfolio() {
           <img className="portfolio-image" src={ecommerce} alt="ecommerce" />
           <div className="buttons">
             <button>
-              <a href="https://fathomless-dawn-86558.herokuapp.com/" target="_blank">
+              <a href="https://fathomless-dawn-86558.herokuapp.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                >
                 Demo
               </a>
             </button>
@@ -85,6 +94,7 @@ export default function Portfolio() {
               <a
                 href="https://github.com/shiratiee/jars-shopper"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Code
               </a>
@@ -99,7 +109,10 @@ export default function Portfolio() {
         <img className="portfolio-image" src={gol} alt="gol" />
         <div className="buttons">
           <button>
-            <a href="https://shiratiee.github.io/gameoflife/" target="_blank">
+            <a href="https://shiratiee.github.io/gameoflife/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               Demo
             </a>
           </button>
@@ -107,6 +120,7 @@ export default function Portfolio() {
             <a
               href="https://github.com/shiratiee/gameoflife"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Code
             </a>
