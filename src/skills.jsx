@@ -11,6 +11,7 @@ export default function Skills() {
         <li>Redux</li>
         <li>HTML5</li>
         <li>CSS3</li>
+        <li>Flexbox</li>
       </ul>
       <h3 style={{ textDecoration: 'underline' }}>Back End</h3>
       <ul className="list">
@@ -20,10 +21,16 @@ export default function Skills() {
         <li>PostgreSQL</li>
         <li>SQL</li>
         <li>RESTful APIs</li>
+        <li>OAuth</li>
+      </ul>
+      <h3 style={{ textDecoration: 'underline' }}>Other</h3>
+      <ul className="list">
         <li>Mocha</li>
         <li>Chai</li>
-        <li>OAuth</li>
+        <li>Postman</li>
         <li>Webpack</li>
+        <li>Git/Github</li>
+        <li>Agile Workflow</li>
       </ul>
     </div>
   );
