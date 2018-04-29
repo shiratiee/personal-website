@@ -65,8 +65,9 @@ a:hover {
   padding: 1em;
   border: 2px solid rgb(82, 5, 134);
   box-shadow: 5px 10px rgb(119, 101, 168);
-  margin: 1em;
   align-self: center;
+  margin: 1em;
+  background-color: rgb(217, 201, 228)
 }
 
 .portfolio {
@@ -81,13 +82,16 @@ a:hover {
 }
 
 .portfolio li {
+  margin-right: 1em;
+  margin-top: 1em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 450px;
+  width: 400px;
   height: 450px;
   border: 1px solid rgb(181, 179, 182);
+  box-shadow: 5px 10px rgb(151, 146, 163);
 }
 
 .portfolio-image {
@@ -107,7 +111,6 @@ a:hover {
 }
 
 button {
-  width: 4em;
   height: 2em;
   font-size: 1em;
   margin: -2.5em 0.5em 0 0.5em;

@@ -38,6 +38,15 @@ export default function Portfolio() {
                 Code
               </a>
             </button>
+            <button>
+              <a
+                href="https://www.youtube.com/watch?v=qW5-C7skuU0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Presentation
+              </a>
+            </button>
           </div>
         </li>
         <li>
@@ -56,15 +65,6 @@ export default function Portfolio() {
           <div className="buttons">
             <button>
               <a
-                href="https://www.youtube.com/watch?v=x9gQXCwP9Ks"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
-            </button>
-            <button>
-              <a
                 href="https://github.com/shiratiee/Stackathon"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -72,6 +72,15 @@ export default function Portfolio() {
                 Code
               </a>
             </button>
+            <button>
+            <a
+              href="https://www.youtube.com/watch?v=x9gQXCwP9Ks"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Presentation
+            </a>
+          </button>
           </div>
         </li>
         <li>
