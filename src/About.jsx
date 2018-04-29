@@ -16,7 +16,7 @@ export default function About() {
         I have expertise throughout the tech stack but I am most excited about the front-end. 
         Currently, I'm leveling up my CSS/Sass skills and am interested in learning new technologies including Mobile Development, Python and C#.
         <br/>
-        Aside from writing coding, I love art & music. I love being in the outdoors and gaming on my phone! 
+        Aside from writing code, I love art & music. I love being in the outdoors and gaming on my phone! 
       </h2>
     </div>
   );
