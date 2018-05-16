@@ -12,11 +12,11 @@ export default function About() {
      alt="Me"
      />
       <h2 className="my-blurb">
-        I'm a developer based in New York City working mainly with JavaScript. 
+        I'm a web developer based in New York City working mainly with JavaScript. 
         I have expertise throughout the tech stack but I am most excited about the front-end. 
         Currently, I'm leveling up my CSS/Sass skills and am interested in learning new technologies including Mobile Development, Python and C#.
         <br/>
-        Aside from writing code, I love art, music, being outdoors and gaming!
+        I love art, music, being outdoors and gaming!
       </h2>
     </div>
   );
