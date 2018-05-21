@@ -13,7 +13,7 @@ export default function Portfolio() {
           <h3 style={{ textDecoration: 'underline' }}>Whiskr</h3>
           <p className="description">
             A tinder-like progressive web app. You can swipe left/right on pets you might
-            want to adopt. Built with React/Redux/Express/Sequelize/PetFinder API
+            want to adopt. Built with React, Redux, Express, Sequelize, OAuth, PetFinder API
           </p>
           <img
             className="portfolio-image"
