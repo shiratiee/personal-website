@@ -70,6 +70,7 @@ export default function Portfolio() {
               >
                 Demo
               </a>
+            </button>
             <button>
               <a
                 href="https://github.com/shiratiee/Stackathon"
