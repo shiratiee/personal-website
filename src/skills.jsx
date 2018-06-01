@@ -12,6 +12,7 @@ export default function Skills() {
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Flexbox</li>
+        <li>AJAX</li>
       </ul>
       <h3 style={{ textDecoration: 'underline' }}>Back End</h3>
       <ul className="list">
@@ -20,7 +21,6 @@ export default function Skills() {
         <li>Sequelize</li>
         <li>PostgreSQL</li>
         <li>SQL</li>
-        <li>RESTful APIs</li>
         <li>OAuth</li>
       </ul>
       <h3 style={{ textDecoration: 'underline' }}>Other</h3>
@@ -31,6 +31,9 @@ export default function Skills() {
         <li>Webpack</li>
         <li>Git/Github</li>
         <li>Agile Workflow</li>
+        <li>RESTful APIs</li>
+        <li>Postico</li>
+        <li>Heroku</li> 
       </ul>
     </div>
   );

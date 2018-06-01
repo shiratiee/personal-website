@@ -63,6 +63,13 @@ export default function Portfolio() {
             alt="seaadventure"
           />
           <div className="buttons">
+          <button>
+              <a href="https://boiling-hamlet-25801.herokuapp.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
+                Demo
+              </a>
             <button>
               <a
                 href="https://github.com/shiratiee/Stackathon"
