@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Me from './images/Me.png'
+import me2 from './images/me2.png'
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
     <h1 style={{ textDecoration: 'underline' }}> About Me </h1>
     <img 
      className="my-image"
-     src={Me}
+     src={me2}
      alt="Me"
      />
       <h2 className="my-blurb">
