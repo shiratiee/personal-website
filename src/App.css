@@ -103,6 +103,15 @@ a:hover {
   border: 2px solid rgb(82, 5, 134);
 }
 
+.portfolio-image2 {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid rgb(82, 5, 134);
+}
+
 .description {
   display: flex;
   flex-direction: row;

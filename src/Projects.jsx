@@ -3,12 +3,58 @@ import ecommerce from './images/ecommerce.png';
 import seaadventure from './images/seaadventure.png';
 import whiskr from './images/whiskr.png';
 import gol from './images/gol.png';
+import robingood from './images/robingood.png'
+import localdocapp from './images/localdocapp.png'
 
 export default function Portfolio() {
   return (
     <div className= "title">
     <h1 style={{ textDecoration: 'underline' }}> Portfolio </h1>
       <ul className="portfolio">
+      <li>
+      <h3 style={{ textDecoration: 'underline' }}>Robin Good</h3>
+      <p className="description">
+      WINNER at Priceline.com's Hackathon for Social Good. A mobile-app that allows local users to request or giveaway services/goods for free. Built using React-Native, Firebase and Expo XDE.
+      </p>
+      <img className="portfolio-image2" src={robingood} alt="robingood" />
+      <div className="buttons">
+        <button>
+          <a
+            href="https://github.com/shiratiee/Good-Samaritan"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code
+          </a>
+        </button>
+      </div>
+    </li>
+    <li>
+    <h3 style={{ textDecoration: 'underline' }}>Local Doctor</h3>
+    <p className="description">
+      A web-app that allows you to find doctors in your vicinity, lists doctor information and insurances. In progress- users will be able to save/delete doctors to profile. Built using React, Redux, Express, Sequelize, BetterDoctor API.
+    </p>
+    <img className="portfolio-image" src={localdocapp} alt="localdocapp" />
+    <div className="buttons">
+      <button>
+        <a href="https://localdocapp.herokuapp.com/ " 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          Demo
+        </a>
+      </button>
+      <button>
+        <a
+          href="https://github.com/shiratiee/local-doctor"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+      </button>
+    </div>
+  </li>
         <li>
           <h3 style={{ textDecoration: 'underline' }}>Whiskr</h3>
           <p className="description">

@@ -9,6 +9,7 @@ export default function Skills() {
         <li>JavaScript(ES5/ES6)</li>
         <li>React</li>
         <li>Redux</li>
+        <li>React-Native</li>
         <li>HTML5</li>
         <li>CSS3</li>
         <li>Flexbox</li>
@@ -20,6 +21,7 @@ export default function Skills() {
         <li>Express.js</li>
         <li>Sequelize</li>
         <li>PostgreSQL</li>
+        <li>Firebase</li>
         <li>SQL</li>
         <li>OAuth</li>
       </ul>
