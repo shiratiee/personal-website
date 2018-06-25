@@ -1,11 +1,13 @@
 {
-  "main.css": "static/css/main.8a8f276b.css",
-  "main.css.map": "static/css/main.8a8f276b.css.map",
-  "main.js": "static/js/main.0f189b8d.js",
-  "main.js.map": "static/js/main.0f189b8d.js.map",
-  "static/media/Me.png": "static/media/Me.323e007c.png",
+  "main.css": "static/css/main.cd408431.css",
+  "main.css.map": "static/css/main.cd408431.css.map",
+  "main.js": "static/js/main.71d665b0.js",
+  "main.js.map": "static/js/main.71d665b0.js.map",
   "static/media/ecommerce.png": "static/media/ecommerce.60ded6cf.png",
   "static/media/gol.png": "static/media/gol.b2e9c728.png",
+  "static/media/localdocapp.png": "static/media/localdocapp.82628b22.png",
+  "static/media/me2.png": "static/media/me2.6d9eea15.png",
+  "static/media/robingood.png": "static/media/robingood.2f2e1d78.png",
   "static/media/seaadventure.png": "static/media/seaadventure.a0acc058.png",
   "static/media/whiskr.png": "static/media/whiskr.b11dc451.png"
 }
