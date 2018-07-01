@@ -54,17 +54,24 @@ a:hover {
 }
 
 .list {
-  list-style: none;
+  /* list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center; */
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
 }
+
+
+
 
 .list li {
   padding: 1em;
-  border: 2px solid rgb(82, 5, 134);
-  box-shadow: 5px 10px rgb(119, 101, 168);
+  border: 2px solid lightgrey;
+  box-shadow: 5px 10px darkgrey;
   align-self: center;
   margin: 1em;
   background-color: rgb(217, 201, 228)
