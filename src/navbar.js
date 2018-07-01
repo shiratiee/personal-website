@@ -5,7 +5,7 @@ export default function Navbar () {
 
     return (
       <div>
-      <div className ="my-name">
+      <div className ="my-name" style={{ textDecoration: 'none' }}>
       <Link to="/" style={{ textDecoration: 'none' }}>
         <h1>Shiratie Prodhan</h1>
       </Link>
