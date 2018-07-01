@@ -36,7 +36,6 @@ export default function Skills() {
         <li>Git/Github</li>
         <li>Agile Workflow</li>
         <li>RESTful APIs</li>
-        <li>Postico</li>
         <li>Heroku</li> 
       </ul>
     </div>
