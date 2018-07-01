@@ -130,8 +130,8 @@ button {
   height: 2em;
   font-size: 1em;
   margin: -2.5em 0.5em 0 0.5em;
-  background-color: rgb(205, 239, 247); 
-  border: 2px solid rgb(18, 5, 134);
+  background-color: rgb(227, 207, 240);
+  border: 2px solid darkgrey;
   text-decoration: none;
 }
 
