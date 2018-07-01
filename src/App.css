@@ -65,6 +65,14 @@ a:hover {
   list-style: none;
 }
 
+@media only screen and (max-width: 400px) {
+  .list {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+  }
+}
 
 .list li {
   padding: 1em;
