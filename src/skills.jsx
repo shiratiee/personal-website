@@ -12,20 +12,22 @@ export default function Skills() {
         <li>React-Native</li>
         <li>HTML5</li>
         <li>CSS3</li>
-        <li >Flexbox</li>
+        <li>Flexbox</li>
         <li>AJAX</li>
       </ul>
       <h3 style={{ textDecoration: 'underline' }}>Back End</h3>
       <ul className="list">
         <li>Node.js</li>
         <li>Express.js</li>
-        <li>Sequelize ORM</li>
-        <li>PostgreSQL</li>
-        <li>Firebase</li>
-        <li>SQL</li>
         <li>Passport.js</li>
         <li>OAuth</li>
-        
+      </ul>
+      <h3 style={{ textDecoration: 'underline' }}>Databases</h3>
+      <ul className="list">
+      <li>SQL</li>
+      <li>Sequelize ORM</li>
+      <li>PostgreSQL</li>
+      <li>Firebase</li>
       </ul>
       <h3 style={{ textDecoration: 'underline' }}>Other</h3>
       <ul className="list">
