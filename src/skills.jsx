@@ -35,6 +35,7 @@ export default function Skills() {
         <li>Chai</li>
         <li>Postman</li>
         <li>Webpack</li>
+        <li>Expo XDE</li>
         <li>Git/Github</li>
         <li>Agile Workflow</li>
         <li>RESTful APIs</li>
